@@ -41,6 +41,12 @@ function App() {
       })
   };
 
+  const showData = (e) => {
+    const p = document.querySelector(".user-data__title");
+    const h1 = document.querySelector(".user-data__info");
+    p.innerHTML = `My ${e.target.className} is`;
+    h1.innerHTML = user[0][e.target.className];
+  };
   useEffect(newUser, []);
 
   return (
