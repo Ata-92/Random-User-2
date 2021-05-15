@@ -63,6 +63,11 @@ function App() {
     rowData2.innerHTML = user[0].email;
     rowData3.innerHTML = user[0].phone;
     rowData4.innerHTML = user[0].age;
+
+    row.appendChild(rowData1);
+    row.appendChild(rowData2);
+    row.appendChild(rowData3);
+    row.appendChild(rowData4);
   };
 
   useEffect(newUser, []);
