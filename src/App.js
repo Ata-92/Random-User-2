@@ -13,8 +13,11 @@ import password from "./assets/padlock.svg";
 import design from "./assets/design.svg";
 
 function App() {
+  const [user, setUser] = useState([]);
+
+  useEffect(newUser, []);
+
   return (
-    <div className="App">
     </div>
   );
 }
