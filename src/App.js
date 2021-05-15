@@ -68,6 +68,9 @@ function App() {
     row.appendChild(rowData2);
     row.appendChild(rowData3);
     row.appendChild(rowData4);
+
+    !tbody.classList.contains(`${user[0].id}`) && tbody.append(row);
+    tbody.classList.add(`${user[0].id}`);
   };
 
   useEffect(newUser, []);
