@@ -15,6 +15,32 @@ import design from "./assets/design.svg";
 function App() {
   const [user, setUser] = useState([]);
 
+  const newUser = (e) => {
+    if (e) e.target.innerHTML = "LOADING...";
+
+    axios
+      .get("https://randomuser.me/api/")
+      .then((response) =>
+        response.data.results.map((user) => ({
+          id: `${user.login.uuid}`,
+          image: `${user.picture.large}`,
+          gender: `${user.gender}`,
+          name: `${user.name.first} ${user.name.last}`,
+          email: `${user.email}`,
+          age: `${user.dob.age}`,
+          street: `${user.location.street.number} ${user.location.street.name}`,
+          phone: `${user.phone}`,
+          password: `${user.login.password}`,
+        }))
+      )
+      .then((data) => {
+        setUser(data);
+        const p = document.querySelector(".user-data__title");
+        p.innerHTML = "My name is";
+        if (e) e.target.innerHTML = "NEW USER";
+      })
+  };
+
   useEffect(newUser, []);
 
   return (
