@@ -33,4 +33,21 @@
       font-weight: 600;
     }
   }
+
+  .icons {
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+
+    img {
+      box-shadow: 0 0 1vw .1vw #f1f4f7;
+      width: 2vw;
+      margin: auto;
+      border: 0.3vw solid #f1f4f7;
+      border-radius: 2vw;
+    }
+  }
 }

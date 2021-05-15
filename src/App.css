@@ -43,6 +43,29 @@
   font-weight: 600;
 }
 
+.user-info .icons {
+  margin-top: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.user-info .icons img {
+  -webkit-box-shadow: 0 0 1vw .1vw #f1f4f7;
+          box-shadow: 0 0 1vw .1vw #f1f4f7;
+  width: 2vw;
+  margin: auto;
+  border: 0.3vw solid #f1f4f7;
+  border-radius: 2vw;
+}
+
 .App {
   text-align: center;
   display: -webkit-box;
