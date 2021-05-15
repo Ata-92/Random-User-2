@@ -78,6 +78,15 @@ function App() {
   return (
     <div className="App">
       <img src={cw} alt="Clarusway Logo" className="cw-logo" />
+      {user.map((the_user) => (
+        <div key="user-key" className="user-info">
+          <img src={the_user.image} alt="User Profile" className="user-image" />
+          <div className="user-data">
+            <p className="user-data__title"></p>
+            <h1 className="user-data__info">{the_user.name}</h1>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
