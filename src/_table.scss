@@ -1,0 +1,26 @@
+table {
+  display: none;
+
+  thead {
+
+    th {
+      font-size: medium;
+      font-weight: 500;
+      color: #9d4d8c;
+      background-color: #fec861;
+      padding: .5vh 1vw;
+    }
+
+    .name-col {
+      padding: .5vh 3vw;
+    }
+
+    .email-col {
+      padding: .5vh 6vw;
+    }
+
+    .phone-col {
+      padding: .5vh 3vw;
+    }
+  }
+}
