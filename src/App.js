@@ -152,6 +152,17 @@ function App() {
               ADD USER
             </button>
           </div>
+          <table className="added-users">
+            <thead>
+              <tr>
+                <th className="name-col">Name</th>
+                <th className="email-col">Email</th>
+                <th className="phone-col">Phone</th>
+                <th className="age-col">Age</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
         </div>
       ))}
     </div>
