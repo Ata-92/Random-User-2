@@ -16,5 +16,21 @@
     #fff 15.3vh
   );
 
+  .user-image {
+    width: 7vw;
+    border-radius: 5vw;
+    margin-top: 5vh;
+    border: 0.2vw solid #fff;
+    outline-offset: 0.2vw;
+  }
 
+  .user-data {
+    height: 6vh;
+    margin-top: 3vh;
+
+    h1 {
+      font-size: medium;
+      font-weight: 600;
+    }
+  }
 }
