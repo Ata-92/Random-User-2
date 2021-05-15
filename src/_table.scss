@@ -23,4 +23,12 @@ table {
       padding: .5vh 3vw;
     }
   }
+
+  tbody {
+    font-size: smaller;
+
+    td {
+      padding: 1vh 0;
+    }
+  }
 }

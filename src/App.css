@@ -28,6 +28,14 @@ table thead .phone-col {
   padding: .5vh 3vw;
 }
 
+table tbody {
+  font-size: smaller;
+}
+
+table tbody td {
+  padding: 1vh 0;
+}
+
 .buttons {
   margin: 6vh auto 3vh;
 }
