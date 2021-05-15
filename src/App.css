@@ -129,6 +129,25 @@ table tbody td {
   position: relative;
 }
 
+.designer .designer__name em {
+  color: rgba(128, 128, 128, 0.9);
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.designer .designer__icon {
+  width: 2vw;
+  position: relative;
+  top: 1vh;
+  bottom: 1vh;
+  margin: 0 2vw;
+}
+
+.designer .designer__design {
+  color: #9d4d8c;
+  font-size: x-large;
+}
+
 .App {
   text-align: center;
   display: -webkit-box;

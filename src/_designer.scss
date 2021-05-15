@@ -6,4 +6,23 @@
   padding: .5vh 0 1vh;
   background-color: #fff;
   position: relative;
+
+  .designer__name em {
+    color: rgba(128, 128, 128, .9);
+    font-size: x-large;
+    font-weight: bolder;
+  }
+
+  .designer__icon {
+    width: 2vw;
+    position: relative;
+    top: 1vh;
+    bottom: 1vh;
+    margin: 0 2vw;
+  }
+
+  .designer__design {
+    color: #9d4d8c;
+    font-size: x-large;
+  }
 }
