@@ -77,6 +77,7 @@ function App() {
 
   return (
     <div className="App">
+      <img src={cw} alt="Clarusway Logo" className="cw-logo" />
     </div>
   );
 }
