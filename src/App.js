@@ -47,6 +47,13 @@ function App() {
     p.innerHTML = `My ${e.target.className} is`;
     h1.innerHTML = user[0][e.target.className];
   };
+
+  const addUser = () => {
+    const table = document.querySelector("table");
+    table.style.display = "block";
+    const tbody = document.querySelector("tbody");
+  };
+
   useEffect(newUser, []);
 
   return (
