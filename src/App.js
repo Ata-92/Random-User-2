@@ -52,6 +52,12 @@ function App() {
     const table = document.querySelector("table");
     table.style.display = "block";
     const tbody = document.querySelector("tbody");
+
+    const row = document.createElement("tr");
+    const rowData1 = document.createElement("td");
+    const rowData2 = document.createElement("td");
+    const rowData3 = document.createElement("td");
+    const rowData4 = document.createElement("td");
   };
 
   useEffect(newUser, []);
