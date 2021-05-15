@@ -58,11 +58,17 @@ function App() {
     const rowData2 = document.createElement("td");
     const rowData3 = document.createElement("td");
     const rowData4 = document.createElement("td");
+
+    rowData1.innerHTML = user[0].name;
+    rowData2.innerHTML = user[0].email;
+    rowData3.innerHTML = user[0].phone;
+    rowData4.innerHTML = user[0].age;
   };
 
   useEffect(newUser, []);
 
   return (
+    <div className="App">
     </div>
   );
 }
