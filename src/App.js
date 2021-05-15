@@ -141,6 +141,18 @@ function App() {
               onMouseOver={showData}
             />
           </div>
+          <div className="buttons">
+            <button
+              className="new-user"
+              onClick={newUser}
+            >
+              NEW USER
+            </button>
+            <button className="add-user" onClick={addUser}>
+              ADD USER
+            </button>
+          </div>
+        </div>
       ))}
     </div>
   );
