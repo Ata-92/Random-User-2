@@ -1,0 +1,16 @@
+@import "reset", "user-info", "designer";
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #fec861 40vh, #f1f4f7 40vh);
+}
+
+.cw-logo {
+  width: 5vw;
+  margin-top: 5vh;
+  border: none;
+}
