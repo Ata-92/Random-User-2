@@ -4,6 +4,27 @@
   color: black;
 }
 
+.buttons {
+  margin: 6vh auto 3vh;
+}
+
+.buttons button {
+  background-color: #9d4d8c;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: .3vw;
+  padding: 0.5vw 2vw;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.buttons button:hover {
+  background-color: #fec861;
+  cursor: pointer;
+}
+
 .user-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,7 +64,7 @@
   font-weight: 600;
 }
 
-.user-info .icons {
+.user-info .icons, .user-info .buttons {
   margin-top: 8vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,7 +78,7 @@
   cursor: pointer;
 }
 
-.user-info .icons img {
+.user-info .icons img, .user-info .buttons img {
   -webkit-box-shadow: 0 0 1vw .1vw #f1f4f7;
           box-shadow: 0 0 1vw .1vw #f1f4f7;
   width: 2vw;

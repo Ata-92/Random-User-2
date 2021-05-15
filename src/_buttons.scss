@@ -1,0 +1,20 @@
+.buttons {
+  @extend .icons;
+  margin: 6vh auto 3vh;
+
+  button {
+    background-color: #9d4d8c;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: .3vw;
+    padding: 0.5vw 2vw;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      background-color: #fec861;
+      cursor: pointer;
+    }
+  }
+}
