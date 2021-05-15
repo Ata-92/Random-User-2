@@ -165,6 +165,11 @@ function App() {
           </table>
         </div>
       ))}
+      <div className="designer">
+        <span className="designer__name"><em>{String(`<ata/>`)}</em></span>
+        <img src={design} alt="Design Icon" className="designer__icon" />
+        <span className="designer__design">design</span>
+      </div>
     </div>
   );
 }
