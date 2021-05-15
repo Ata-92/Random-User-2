@@ -85,7 +85,62 @@ function App() {
             <p className="user-data__title"></p>
             <h1 className="user-data__info">{the_user.name}</h1>
           </div>
-        </div>
+          <div className="icons">
+            {the_user.gender === "female" ? (
+              <img
+                src={woman}
+                alt="Man Icon"
+                className="name"
+                onMouseOver={showData}
+              />
+            ) : (
+              <img
+                src={man}
+                alt="Woman Icon"
+                className="name"
+                onMouseOver={showData}
+              />
+            )}
+            <img
+              src={email}
+              alt="Email Icon"
+              className="email"
+              onMouseOver={showData}
+            />
+            {the_user.gender === "female" ? (
+              <img
+                src={oldwoman}
+                alt="Old Woman Icon"
+                className="age"
+                onMouseOver={showData}
+              />
+            ) : (
+              <img
+                src={oldman}
+                alt="Old Man Icon"
+                className="age"
+                onMouseOver={showData}
+              />
+            )}
+            <img
+              src={location}
+              alt="Location Icon"
+              className="street"
+              onMouseOver={showData}
+            />
+            <img
+              src={phone}
+              alt="Phone Icon"
+              className="phone"
+              onMouseOver={showData}
+            />
+            <img
+              src={password}
+              alt="Password Icon"
+              className="password"
+              onMouseOver={showData}
+            />
+          </div>
       ))}
     </div>
   );
