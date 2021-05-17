@@ -38,7 +38,7 @@ function App() {
         const p = document.querySelector(".user-data__title");
         p.innerHTML = "My name is";
         if (e) e.target.innerHTML = "NEW USER";
-      })
+      });
   };
 
   const showData = (e) => {
@@ -142,10 +142,7 @@ function App() {
             />
           </div>
           <div className="buttons">
-            <button
-              className="new-user"
-              onClick={newUser}
-            >
+            <button className="new-user" onClick={newUser}>
               NEW USER
             </button>
             <button className="add-user" onClick={addUser}>
@@ -166,7 +163,9 @@ function App() {
         </div>
       ))}
       <div className="designer">
-        <span className="designer__name"><em>{String(`<ata/>`)}</em></span>
+        <span className="designer__name">
+          <em>{String(`<ata/>`)}</em>
+        </span>
         <img src={design} alt="Design Icon" className="designer__icon" />
         <span className="designer__design">design</span>
       </div>
